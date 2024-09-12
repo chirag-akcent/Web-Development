@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative unit: Percent</title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+            font-size: 50px;
+        }
+        #first{
+            font-size: 50px;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        #second{
+            font-size: 0.25em; /*0.25 of the immediate parent*/
+            height: 60%;
+            width: 50%;
+            background-color: royalblue;
+        }
+        #third{
+            font-size: 0.4rem; /* 0.25 of the root element*/
+        }
+    </style>
+</head>
+<body>Body
+    <div id="first">
+        First Div
+        <div id="second">Second Div</div>
+        <div id="third">Third Div</div>
+    </div>
+</body>
+</html>

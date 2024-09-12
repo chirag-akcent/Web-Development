@@ -1,0 +1,19 @@
+* {
+    margin: 2.5px;
+    padding: 0;
+}
+
+.box {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: lightsalmon;
+}
+
+@media screen and (min-width: 200px) and(max-width: 300px) {
+    .box {
+        height: 150px;
+        width: 150px;
+        background-color: brown;
+    }
+}

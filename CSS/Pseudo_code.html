@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Code</title>
+    <style>
+        .pseudo{
+            height: 25px;
+            width: 125px;
+            background-color: blanchedalmond;
+            border: 2px solid black;
+            border-radius: 10px;
+
+            transition-property: all;
+            transition-duration: 50ms;
+            transition-timing-function: ease-in-out;
+            /* transition-delay: 1s; */
+
+            /* transition: all 50ms ease-in-out;  same as above */
+        }
+        .pseudo:hover{
+            background-color: chocolate;
+            cursor: pointer;
+            height: 27.5px;
+            width: 140px;
+        }
+        .pseudo:active{
+            height: 27.5px;
+            width: 140px;
+            background-color: rgb(255, 199, 130);
+        }
+    </style>
+</head>
+<body>
+    <button id="pseudo1" class="pseudo">Learning Pseudo</button>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h2>School Trip Form</h2>
+        <form action="form.php">
+            <label for="FName">Full Name:</label>
+            <input type="text" placeholder="Enter Your Full Name"><br><br>
+            <label for="Roll No.">Roll No. :</label>
+            <input type="number" placeholder="Enter Your Roll No."><br><br>
+
+            <label for="Course">Course</label>
+            <select name="course" id="course">
+                <option value="Bca">BCA</option>
+                <option value="bsc">BSC</option>
+                <option value="btech">B.Tech</option>
+            </select><br><br>
+
+            <label for="Section">Section:</label>
+            <label for="Sectionida">
+                <input type="radio" id="Sectionida" name="section" value="A">A
+            </label>
+            <label for="Sectionidb">
+                <input type="radio" id="Sectionidb" name="section" value="B">B
+            </label>
+            <label for="Sectionidc">
+                <input type="radio" id="Sectionidc" name="section" value="C">C
+            </label><br><br>
+            <!-- <label for="Subjects">Subjects:</label>
+            <input type="checkbox" name="English" id="english1" class="red">English
+            <input type="checkbox" name="Hindi" id="hindi1" class="red">Hindi
+            <input type="checkbox" name="Maths" id="maths1" class="red">Maths
+            <input type="checkbox" name="Science" id="science1" class="red">Science
+            <input type="checkbox" name="Social" id="social1" class="red">Social Science <br><br> -->
+            <!-- <input type="color" id="favcolor"><br> -->
+            <label for="email">Email</label>
+            <input type="email"><br><br>
+            <label for="dob">Enter Date of Birth</label>
+            <input type="date"><br><br>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>

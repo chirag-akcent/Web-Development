@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Travel Trip Form</h2>
+        <form action="a.php">
+            <label for="FName">Full Name</label>
+            <input type="text" placeholder="Enter Name"><br><br>
+            <label for="datefrom">Date From</label>
+            <input type="date"><br><br>
+            <label for="dateto">Date To</label>
+            <input type="date"><br><br>
+            <label for="Travel1">Travel From</label>
+            <select name="Travel From" id="travel1">
+                <option value="France">France</option>
+                <option value="Spain">Spain</option>
+                <option value="U.S.">U.S.</option>
+                <option value="Italy">Italy</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+            <label for="Travel To">Travel To</label>
+            <select name="Travel To" id="travel2">
+                <option value="France">France</option>
+                <option value="Spain">Spain</option>
+                <option value="U.S.">U.S.</option>
+                <option value="Italy">Italy</option>
+                <option value="Turkey">Turkey</option>
+            </select><br><br>
+            File: <input type="file" name="file" id="file"><br><br>
+            Price Range: <input type="range" name="range" id="range"><br><br>
+            <textarea name="Suggestions" id="suggestions" cols="20" rows="4" placeholder="Enter Suggestions here"></textarea><br><br>
+            <input type="submit" value="Submit">
+            <input type="submit" value="Cancel"><br><br>
+        </form>
+    </div>
+</body>
+</html>

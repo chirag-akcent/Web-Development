@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(226, 168, 97);
+            margin: 20px;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 5px;
+            transition-property: all;
+            transition-duration: 50ms;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        #box1{
+            background-color: chartreuse;
+        }
+        #box1:hover{
+            cursor: pointer;
+            transform: rotate(45deg);
+        }
+
+        #bo2{
+            background-color: cadetblue;
+        }
+        #box2:hover{
+            cursor: pointer;
+            transform: rotate(180deg);
+        }
+
+        #box3{
+            background-color: chocolate;
+        }
+        #box3:hover{
+            cursor: pointer;
+            transform: rotateX(45deg);
+        }
+
+        #box4{
+            background-color: cornflowerblue;
+        }
+        #box4:hover{
+            cursor: pointer;
+            transform: rotateY(45deg);
+        }
+
+        #box5{
+            background-color: lime;
+        }
+        #box5:hover{
+            cursor: pointer;
+            transform: scale(2); /*2X Scale*/
+        }
+
+        #box6{
+            cursor: pointer;
+            background-color: burlywood;
+        }
+        #box6:hover{
+            cursor: pointer;
+            transform: scale(4); /*4X Scale*/
+        }
+
+        #box7{
+            cursor: pointer;
+            background-color: burlywood;
+        }
+        #box7:hover{
+            cursor: pointer;
+            transform: scale(0.5); /*4X Scale*/
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">45 <sup>deg</sup></div>
+    <div id="box2" class="box">180 <sup>deg</sup></div>
+    <div id="box3" class="box">x 45 <sup>deg</sup></div>
+    <div id="box4" class="box">y 45 <sup>deg</sup></div>
+    <div id="box5" class="box">Scale Twice</div>
+    <div id="box6" class="box">Scale 4 Times</div>
+    <div id="box7" class="box">Scale 0.5 Times</div>
+</body>
+</html>
